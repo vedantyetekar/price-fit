@@ -1,3 +1,4 @@
+import HeroCarousel from "@/components/HeroCarousel";
 import Searchbar from "@/components/Searchbar";
 import Image from "next/image";
 
@@ -17,16 +18,17 @@ const Home = () => {
               />
             </p>
             <h1 className="head-text">
-              Unleash the Power of{" "}
-              <span className="text-green-700">b4uBuy</span>
+              Unleash the Power of
+              <span className="text-primary"> PriceFit</span>
             </h1>
+
             <p className="mt-6">
               Powerful, self-serve product and growth analytics to help you
               convert, engage, and retain more.
             </p>
             <Searchbar />
           </div>
-          HeroCarousel
+          <HeroCarousel />
         </div>
       </section>
       <section className="trending-section">

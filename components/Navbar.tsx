@@ -6,7 +6,6 @@ const navIcons = [
   { src: "/assets/icons/black-heart.svg", alt: "heart" },
   { src: "/assets/icons/user.svg", alt: "user" },
 ];
-
 const Navbar = () => {
   return (
     <header className="w-full">
@@ -16,10 +15,10 @@ const Navbar = () => {
             alt="logo"
             width={32}
             height={32}
-            src="/assets/icons/logo.png"
+            src="/assets/icons/logo.svg"
           />
           <p className="nav-logo">
-            b4u<span className="text-green-700">Buy</span>
+            Price<span className="text-primary">Fit</span>
           </p>
         </Link>
         <div className="flex items-center gap-5">

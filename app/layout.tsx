@@ -10,7 +10,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "b4uBuy",
+  title: "PriceFit",
   description:
     "Keep a track of your favourite product's price and save on your next purchase with b4uBuy.",
 };
